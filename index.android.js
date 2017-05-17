@@ -15,7 +15,7 @@ import {
 export default class SamaritanApp extends Component {
   render() {
     return (
-      <View style={styles.container}>
+      <View style={styles.appContainer}>
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
