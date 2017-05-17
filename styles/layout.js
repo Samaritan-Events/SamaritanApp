@@ -10,6 +10,10 @@ const styles = StyleSheet.create({
   main: {
     flex: 1,
   },
+  itemContainer: {
+    width: '100%',
+    backgroundColor: 'white',
+  },
 });
 
 export default styles
