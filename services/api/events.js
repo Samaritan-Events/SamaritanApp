@@ -10,7 +10,7 @@ api = {
         eventDate: 'Tomorrow at 10am',
         organizer: {
           name: 'Josh Graber',
-          gravatar: 'http://www.gravatar.com/avatar/5469091ba72e1841ae7868df28e5f648?s=48&d=identicon',
+          gravatar: 'https://www.gravatar.com/avatar/5469091ba72e1841ae7868df28e5f648?s=96&d=identicon',
         },
         participants: 5,
         location: {
@@ -34,7 +34,7 @@ api = {
         eventDate: 'Monday at 4pm',
         organizer: {
           name: 'Jonas Johnson',
-          gravatar: 'http://www.gravatar.com/avatar/6479091ba72e1841ae7868df28e5f648?s=48&d=identicon'
+          gravatar: 'https://www.gravatar.com/avatar/6479091ba72e1841ae7868df28e5f648?s=96&d=identicon'
         },
         participants: 6,
         location: {
