@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
-import { Text, StyleSheet, View } from 'react-native'
+import { Text, View } from 'react-native'
 
+import styles from '../../styles/layout'
 import eventsApi from '../../services/api/events'
+import Event from './event'
 
 export default class ExplorePage extends Component {
   getNumberOfEvents() {
@@ -10,7 +12,7 @@ export default class ExplorePage extends Component {
 
   render() {
     return (
-      <View>
+      <View style={styles.itemContainer}>
         {this.renderEvents()}
       </View>
     )
@@ -19,7 +21,7 @@ export default class ExplorePage extends Component {
   renderEvents() {
     return eventsApi.getInterestingEvents(this.getNumberOfEvents()).map(e => {
       return (
-        <Text key={e.id}>{e.name}</Text>
+        <Event key={e.id} event={e} />
       )
     })
   }
