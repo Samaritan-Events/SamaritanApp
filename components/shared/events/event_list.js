@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import { Text, View } from 'react-native'
 
-import styles from '../../styles/layout'
-import eventsApi from '../../services/api/events'
+import layoutStyles from '../../../styles/layout'
+import eventListStyles from './event_list_styles'
+import eventsApi from '../../../services/api/events'
 import Event from './event'
 
 export default class ExplorePage extends Component {
@@ -12,7 +13,7 @@ export default class ExplorePage extends Component {
 
   render() {
     return (
-      <View style={styles.itemContainer}>
+      <View style={[ layoutStyles.itemContainer, eventListStyles.list ]}>
         {this.renderEvents()}
       </View>
     )
