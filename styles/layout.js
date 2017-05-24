@@ -14,6 +14,6 @@ const styles = StyleSheet.create({
     width: '100%',
     backgroundColor: 'white',
   },
-});
+})
 
 export default styles
